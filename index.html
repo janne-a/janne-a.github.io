@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing pages at Github</title>
+
+    <!-- link style.css on the same dir to the html-->
+    <!-- <link href='./style.css' rel='stylesheet'> -->
+  </head>
+  </head>
+  <!--body is for real content, separate from metadata <head>-->
+  <body>
+    <!-- for presentation the whole doc is wrapped inside div-->
+    <div class="page">
+      <!--Title and navigation here-->
+      <header>
+        <h1>The main heading of the page</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- No repetitive info on main. Leave header, nav and footer out of this-->
+
+      <main>
+        <!-- First article. It has own header, p and footer. Can be lifted out of context.-->
+
+        <article>
+          <header>
+            <h1>Artikkelin 1 otsikko</h1>
+            <p>
+              By Pelle Peloton. Published
+              <time datetime="2021-09-3 14:00+0300">September 3rd</time>. Tähän
+              lyhyesti artikkelista
+            </p>
+          </header>
+          <p>
+            Tässä on artikkeliin liittyvää tekstiä. Katsotaan mitä tästä tulee.
+          </p>
+
+          <!-- aside removes information from the article element-->
+          <aside>Fun fact of this article / fun story</aside>
+          <p>Tässä on jotakin lisätietoa kyseiseen artikkeliin liittyen.</p>
+          <figure>
+            <!-- leave alt parameter blank if no description. indicates that this image is not a key part of the content and that non-visual browsers may omit it from rendering.-->
+            <img src="" alt="pic not shown" />
+            <figcaption>If this is shown, link is busted</figcaption>
+          </figure>
+          <footer>
+            <p>This article was written by a grazy clown.</p>
+            <address>
+              <a href="">Pelle Peloton</a> for questions
+              about this article.
+            </address>
+          </footer>
+        </article>
+
+        <!-- Second article-->
+
+        <article>
+          <header>
+            <h1>Artikkelin 2 otsikko</h1>
+            <p>Pelle Peloton</p>
+          </header>
+          <p>Tässä on toinen artikkeli joka kertoo yhtä sun toista.</p>
+          <footer>Kirjoittaja on vapaa tietokirjailija ja asuu maalla.</footer>
+        </article>
+
+        <section>
+          <h1>Väli-info sivulle. Ei löydy muuta semanttista elementtiä.</h1>
+        </section>
+      </main>
+
+      <!--Footer is out of the main-->
+
+      <footer>This is the footer for the whole page</footer>
+    </div>
+  </body>
+</html>
