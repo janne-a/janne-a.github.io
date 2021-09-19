@@ -1,4 +1,4 @@
-# janne-a.github.io
+# Coding examples
 Testing pages at GitHub
 ```javascript
 
