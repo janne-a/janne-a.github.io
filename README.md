@@ -1,5 +1,15 @@
 # janne-a.github.io
 Testing pages at GitHub
-@media only screen and (min-resolution: 300dpi) {
-  /* CSS for high resolution screens */
+```javascript
+
+let a = b + c
+if (a === 100; )
+
+```
+
+```css
+h1 {
+  font-size: 16px;
+
 }
+```
