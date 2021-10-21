@@ -1,25 +1,14 @@
 # Coding examples
-Testing pages at GitHub
-```javascript
-let a = b + c
-if (a === 100; )
 
-```
+
+## CSS - GRID
+
+### Fit data to columns, no number of columns given
 
 ```css
-h1 {
-  font-size: 16px;
-}
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
-![Image of Yaktocat](/images/css-grid-autofit-1.png)
-
-tekstiä
-
-
-![Image of Yaktocat](images/css-grid-autofit-2.png)
-
-tekstiä
-
+Code fits items to columns. If space is given, they take the whole width.
 ![Image of Yaktocat](images/css-grid-autofit-3.png)
  
 
@@ -33,6 +22,8 @@ tekstiä
   };
 ```
 - [Coding examples](#coding-examples)
+  - [CSS - GRID](#css---grid)
+    - [Fit data to columns, no number of columns given](#fit-data-to-columns-no-number-of-columns-given)
 - [Section 1](#section-1)
 - [Section 2](#section-2)
   - [Secttion 2.2](#secttion-22)
