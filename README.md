@@ -19,7 +19,7 @@ h1 {
     if (day === 'Wednesday') {
       return true;
     } else {
-      return false;
+      return false; 
     }
   };
 ```
