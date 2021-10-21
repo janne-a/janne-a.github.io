@@ -21,7 +21,7 @@ tekstiä
 tekstiä
 
 ![Image of Yaktocat](images/css-grid-autofit-3.png)
-
+ 
 
 ```javascript
   const plantNeedsWater = (day) => {
