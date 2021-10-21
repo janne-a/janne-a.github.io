@@ -21,7 +21,7 @@ When screen size grows, space is reserved for blank 100px items.
 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 ```
 
-![Image of css-grid-autofill](images/css-grid-autofill-1.png)
+![Image of css-grid-autofill](images/css-grid-autofill-2.png)
 
 | Left | Center | Right |
 | :--- | :----: | ----: |
