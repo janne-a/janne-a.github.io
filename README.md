@@ -3,41 +3,25 @@
 
 ## CSS - GRID
 
-### Fit data to columns, no number of columns given
+### Dynamically place items to columns, based on screen size
+Item takes min. 100px and max 1fr.
+If items fit on one row, they expand as much they can.
 
 ```css
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
-Code fits items to columns. If space is given, they take the whole width. 
+Example picture:
+![Image of css-grid-autofit](images/css-grid-autofit-1.png)
 
-![Image of Yaktocat](images/css-grid-autofit-1.png)
+### Dynamically place items and blank items to columns, based on screen size.
+Item takes min. 100px and max 1fr (max. size is not achieved).
+When screen size grows, space is reserved for blank 100px items. 
 
- 
-
-```javascript
-  const plantNeedsWater = (day) => {
-    if (day === 'Wednesday') {
-      return true;
-    } else {
-      return false; 
-    }
-  };
+```css
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 ```
-- [Coding examples](#coding-examples)
-  - [CSS - GRID](#css---grid)
-    - [Fit data to columns, no number of columns given](#fit-data-to-columns-no-number-of-columns-given)
-- [Section 1](#section-1)
-- [Section 2](#section-2)
-  - [Secttion 2.2](#secttion-22)
-- [Section 3](#section-3)
 
-# Section 1
-
-# Section 2
-
-## Secttion 2.2
-
-# Section 3
+![Image of css-grid-autofill](images/css-grid-autofill-1.png)
 
 | Left | Center | Right |
 | :--- | :----: | ----: |
