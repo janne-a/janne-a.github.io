@@ -9,6 +9,7 @@
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
 Code fits items to columns. If space is given, they take the whole width.
+
 ![Image of Yaktocat](images/css-grid-autofit-1.png)
 
  
