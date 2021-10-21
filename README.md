@@ -11,16 +11,16 @@ h1 {
   font-size: 16px;
 }
 ```
-![Image of Yaktocat](https://janne-a.github.io/images/../../../images/css-grid-autofit-1.png)
+![Image of Yaktocat](/images/css-grid-autofit-1.png)
 
 tekstiä
 
 
-![Image of Yaktocat](https://janne-a.github.io/images/../../../images/css-grid-autofit-2.png)
+![Image of Yaktocat](images/css-grid-autofit-2.png)
 
 tekstiä
 
-![Image of Yaktocat](https://janne-a.github.io/images/../../../images/css-grid-autofit-3.png)
+![Image of Yaktocat](images/css-grid-autofit-3.png)
 
 
 ```javascript
