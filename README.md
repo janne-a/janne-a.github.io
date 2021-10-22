@@ -3,17 +3,26 @@
 
 ## CSS - GRID
 
-### Dynamically place items to columns, based on screen size
+### CSS - Grid - Auto-fit: Dynamically place items to columns, based on screen size
 Item takes min. 100px and max 1fr.
-If items fit on one row, they expand as much they can.
+
+**Narrow viewport**: Puts items on another row(s)
+
+**Wide viewport**: If fit on one row, they expand as much as they can
+
 
 ```css
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
-Example picture:
-![Image of css-grid-autofit](images/css-grid-autofit-1.png)
+Narrow viewport:
 
-### Dynamically place items and blank items to columns, based on screen size.
+<img src="images/css-grid-autofit-2.png" width="30%">
+
+Wide viewport:
+
+<img src="images/css-grid-autofit-1.png" width="100%">
+
+### CSS - Grid - Auto-fill: Dynamically place items and blank items to columns, based on screen size.
 Item takes min. 100px and max 1fr (max. size is not achieved).
 When screen size grows, space is reserved for blank 100px items. 
 
