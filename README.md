@@ -3,22 +3,34 @@
 
 ## CSS - GRID
 
-### CSS - Grid - Auto-fit: Dynamically place items to columns, based on screen size
-Item takes min. 100px and max 1fr.
-
-**Narrow screen**: Puts items on another row(s)
-
-**Wide screen**: If fit on one row, they expand as much as they can
-
+### CSS - Grid: Items in fixed number of columns
+Items are put in 3 columns, each 1fr wide.
 
 ```css
-grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+display: grid;
+grid-template-columns: repeat(3, 1fr);
 ```
-Narrow screen:
+
+**Narrow screen**: Items are in 3 narrow columns
 
 <img src="images/css-grid-autofit-2.png" width="30%">
 
-Wide screen:
+**Wide screen**: Items are in 3 wide columns  
+
+<img src="images/css-grid-repeat-3-columns.png" width="100%">
+
+### CSS - Grid - Auto-fit: Dynamically place items to columns, based on screen size
+Item takes min. 100px and max 1fr.
+
+```css
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+```
+**Narrow screen**: Puts items on another row(s)
+
+<img src="images/css-grid-autofit-2.png" width="30%">
+
+**Wide screen**: If fit on one row, they expand as much as they can
 
 <img src="images/css-grid-autofit-1.png" width="100%">
 
@@ -32,13 +44,14 @@ Item takes min. 100px and max 1fr (max. size is not achieved).
  
 
 ```css
+display: grid;
 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 ```
-Narrow viewport:
+Narrow screen:
 
 <img src="images/css-grid-autofit-2.png" width="30%">
 
-Wide viewport (DevTools only shows lines of empty items, normal mode they are not visible): 
+Wide screen (DevTools only shows lines of empty items, in normal mode they are not visible): 
 
 ![Image of css-grid-autofill](images/css-grid-autofill-2.png)
 
