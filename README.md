@@ -3,7 +3,7 @@
 
 ## CSS - GRID
 
-### CSS - Grid: Items in fixed number of columns
+### CSS - Grid: Items in fixed number of same width columns
 Items are put in 3 columns, each 1fr wide.
 
 ```css
@@ -18,6 +18,23 @@ grid-template-columns: repeat(3, 1fr);
 **Wide screen**: Items are in 3 wide columns  
 
 <img src="images/css-grid-repeat-3-columns.png" width="100%">
+
+
+### CSS - Grid: Items in fixed number of different width columns
+Items are put in 2 columns, 1st column twice the width 
+
+```css
+display: grid;
+grid-template-columns: 2fr 1fr;
+```
+
+**Narrow screen**: Items are in 2 narrow columns, 1st column twice the width
+
+<img src="images/css-grid-2-columns.png" width="30%">
+
+**Wide screen**: Items are in 2 wide columns, 1st column twice the width
+
+<img src="images/css-grid-2-columns-2.png" width="100%">
 
 ### CSS - Grid - Auto-fit: Dynamically place items to columns, based on screen size
 Item takes min. 100px and max 1fr.
