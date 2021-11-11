@@ -52,9 +52,10 @@ grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 <img src="images/css-grid-autofit-1.png" width="100%">
 
 ### CSS - Grid - Auto-fill: Dynamically place items and blank items to columns, based on screen size.
-Item takes min. 100px and max 1fr (max. size is not achieved).
+Items take 100px. 
 
 **Narrow screen**: Puts items on another row(s)
+
 
 **Wide screen**: If items fit on one row, they expand only to 100px. New empty 100px items are added to the end.
 
@@ -62,7 +63,7 @@ Item takes min. 100px and max 1fr (max. size is not achieved).
 
 ```css
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+grid-template-columns: repeat(auto-fill, 100px);
 ```
 Narrow screen:
 
